@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "seek-infra"
+    organization = "cloud-infra"
 
     workspaces {
       prefix = "waf-cloudconsul-"
